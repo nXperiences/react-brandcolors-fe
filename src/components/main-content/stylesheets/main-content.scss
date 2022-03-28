@@ -1,0 +1,18 @@
+.main-content {
+  flex: 1;
+  overflow: auto;
+  .content-header {
+    height: 60px;
+    line-height: 25px;
+    border-bottom: solid 1px #ccc;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    align-items: center;
+  }
+  .content-body {
+    padding: 15px;
+    background-color: #f8f8f8;
+  }
+}
